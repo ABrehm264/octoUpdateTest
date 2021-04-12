@@ -14,7 +14,7 @@ namespace ConsoleApp
 
         static void Main(string[] args)
         { 
-            MyLogger.Log(LogLevels.Verbose, "Hello World!");
+            MyLogger.Log(LogLevels.Verbose, "Welcome to version 3 of this appplication!");
             MyLogger.Log(LogLevels.Warn, "This is a warning");
             MyLogger.Log(LogLevels.Error, "This is an error");
         }
