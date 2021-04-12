@@ -1,0 +1,16 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+	sparseCheckout = true
+[remote "origin"]
+	url = git@github.heartlandapps.net:abrehm/octoUpdateTest.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[lfs]
+	storage = C:\\teamcity\\JVLTEAMCITY02_01\\system\\git\\git-CDF8C3BF.git\\lfs
+[branch "main"]
+	remote = origin
+	merge = refs/heads/main
